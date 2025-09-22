@@ -111,11 +111,27 @@ The `hour` and `weekday` features are created via data transformation from the `
 ![image](https://github.com/user-attachments/assets/fa4258df-a86e-49ae-8018-907eb66f0384)
 
 ## Modeling
+### Dataset Split
+- Train/test split method
+
+### Models
+Baseline model: Simple Regression - used to establish benchmark performance
+- Random Forest
+- XGBoost
+- Deep Learning (DNN)
+
+Hyperparameter Tuning:
 ...
+
 
 ##  Evaluation
 
-After resolving feature scaling issues and integrating weather data, model MAEs improved significantly.
+### Evaluation Metrics
+- MAE
+- Compare across model with and without weather features
+
+## Results
+After resolving feature scaling issues, all model MAEs improved significantly. Afterwards, weather data is integrated in a cloned dataset, where new model performances (with weather data) are documented.
 
 ![image](https://github.com/user-attachments/assets/88241d16-b593-45f1-a0e3-70e3a87b3691)
 
